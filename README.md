@@ -1,4 +1,4 @@
-Very rough benchmarking of Rayon multi-threading
+# Very rough benchmarking of Rayon multi-threading
   
 Needed approx. 10k iterations of `f64.sin()` to see `par_iter` outperform `iter`.
 Beyond that, the more iterations, the larger the difference. 

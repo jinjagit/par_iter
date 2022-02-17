@@ -1,6 +1,7 @@
-Very rough benchmarking of rayon mutli-threading
+Very rough benchmarking of Rayon multi-threading
   
-Needed appx 10k iterations of `f64.sin()` to see `par_iter` outperform `iter`.  
+Needed approx. 10k iterations of `f64.sin()` to see `par_iter` outperform `iter`.
+Beyond that, the more iterations, the larger the difference. 
 The 'harder' the calc, the greater the difference in performance.  
   
 For example, iterating over a vec with 100,000,000 elements;

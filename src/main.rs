@@ -4,7 +4,7 @@ use rayon::prelude::*;
 
 fn main() {
     let mut rng = rand::thread_rng();
-    let mut  vec: Vec<f64> = vec![];
+    let mut vec: Vec<f64> = vec![];
 
     for _i in 0..99999999 {
         vec.push(rng.gen::<f64>());
